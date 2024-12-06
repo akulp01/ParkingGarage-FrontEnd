@@ -1,0 +1,17 @@
+.car-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.car-count .car-count-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius:0px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}

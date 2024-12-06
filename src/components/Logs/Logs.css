@@ -1,0 +1,60 @@
+.logs .logs-wrap{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logs table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #313131;
+    border-collapse: collapse;
+    overflow-y:scroll; 
+    height: 300px; 
+    display: block;  
+}
+
+.logs th{
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+.logs tr{
+    background-color: #76c862;
+    color: #000000;
+    border: 2px solid #000000;
+    transition: ease-in-out 0.2s;
+}
+
+.logs .unregistered{
+    background-color: rgb(228, 99, 99);
+    color: #000000;
+}
+
+.logs td {
+    padding: 5px;
+    border: 2px solid #555252;
+}
+
+
+.logs tr:hover{
+    background-color: #a1a0a0;
+    color: #000000;
+    cursor: pointer;
+}
+
+.logs caption{
+    border: 2px solid #000000;
+    border-bottom: none;
+    background-color: #737171;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
